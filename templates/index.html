@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GYM MANAGEMENT SYSTEM</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+</head>
+<div style="text-align: center; justify-content: center;">
+    <a href="{{ url_for('Home') }}">
+    <button>Home</button>
+</a>
+<a href="{{ url_for('AboutUs') }}">
+    <button>About Us</button>
+</a>
+<a href="{{ url_for('Membership') }}">
+    <button>Membership</button>
+</a>
+</div>
+<body>
+<div style="text-align: center; justify-content: center;">
+    <h1>GET FIT GYM</h1>
+    <nav></nav>
+    <header></header>
+    <section class="home">
+        <h2>WELCOME TO GET FIT</h2>
+        <img src="{{url_for('static', filename=('aitigym.avif'))}}" alt="">
+        <P>Your fitness journey start here.Get fit,stay strong,and join community.</P>
+        <p>&copy;2025 GET FIT GYM.All right reserved.</p>
+    </div>
